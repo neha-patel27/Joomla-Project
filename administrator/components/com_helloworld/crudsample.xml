@@ -1,0 +1,21 @@
+<extension type="component" version="3.0" method="upgrade">
+<name>Hello World!</name>
+<namespace path="src">Joomla\Component\Crudsample</namespace>
+<files folder="site">
+    <filename>crudsample.php</filename>
+    <folder>View</folder>
+    <folder>Controller</folder>
+    <folder>Model</folder>
+</files>
+<administration>
+        <menu link="index.php?option=com_crudsample">CRUD Sample</menu>
+
+        <files folder="administrator">
+            <filename>crudsample.php</filename>
+            <filename>script.php</filename>
+
+            <folder>src</folder>
+        </files>
+    </administration>
+
+</extension>

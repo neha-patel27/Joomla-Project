@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="4.0" client="site" method="upgrade">
+    <name>Currency Converter</name>
+    <author>Neha Patel</author>
+    <version>1.1.0</version>
+    <description>Currency Converter with Parameters</description>
+
+    <files>
+        <filename module="mod_currencyconverter">mod_currencyconverter.php</filename>
+        <filename>helper.php</filename>
+        <folder>tmpl</folder>
+    </files>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic" label="Basic Settings">
+
+                <field
+                    name="default_amount"
+                    type="number"
+                    label="Default Amount"
+                    default="1"
+                />
+
+                <field
+                    name="default_from"
+                    type="text"
+                    label="From Currency"
+                    default="USD"
+                />
+
+                <field
+                    name="default_to"
+                    type="text"
+                    label="To Currency"
+                    default="INR"
+                />
+
+            </fieldset>
+        </fields>
+    </config>
+
+</extension>

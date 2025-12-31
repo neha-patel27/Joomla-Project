@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `#__login_logs` (
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `user_id` INT NOT NULL,
+  `username` VARCHAR(150),
+  `action` VARCHAR(20),
+  `created_at` DATETIME DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

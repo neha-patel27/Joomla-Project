@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="user" method="upgrade">
+    <name>plg_user_logtracker</name>
+    <author>Neha Patel</author>
+    <version>1.0.0</version>
+    <description>Tracks user login and logout and stores it in database</description>
+
+    <files>
+        <filename plugin="logtracker">logtracker.php</filename>
+        
+    </files>
+</extension>

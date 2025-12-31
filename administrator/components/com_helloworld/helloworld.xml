@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="4.0" method="upgrade">
+
+    <name>Hello World</name>
+    <version>0.0.3</version>
+    <description>
+        A hello world component!
+    </description>
+
+    <namespace path="src">Joomla\Component\HelloWorld</namespace>
+
+    <files folder="site/">
+        <folder>src</folder>
+        <folder>tmpl</folder>
+    </files>
+
+    <administration>
+        <menu link="index.php?option=com_helloworld">Hello World</menu>
+        <files folder="admin/">
+            <folder>services</folder>
+            <folder>src</folder>
+            <folder>tmpl</folder>
+        </files>
+    </administration>
+
+</extension>

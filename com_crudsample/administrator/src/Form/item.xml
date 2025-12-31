@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset name="basic">
+        <field
+            name="id"
+            type="number"
+            label="ID"
+            readonly="true"
+        />
+
+        <field
+            name="title"
+            type="text"
+            label="Title"
+            required="true"
+        />
+    </fieldset>
+</form>

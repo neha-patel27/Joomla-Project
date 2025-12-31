@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="user" method="upgrade" version="4.0">
+    <name>PLG_USER_USERLOG</name>
+    <author>Your Name</author>
+    <version>1.0.1</version>
+    <description>User Login/Logout Logger</description>
+
+    <files>
+        <filename plugin="userlog">userlog.php</filename>
+        <folder>sql</folder>
+        <filename>index.html</filename>
+    </files>
+
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8mb4">
+                sql/install.mysql.utf8mb4.sql
+            </file>
+        </sql>
+    </install>
+
+    <uninstall>
+        <sql>
+            <file driver="mysql">
+                sql/uninstall.mysql.utf8mb4.sql
+            </file>
+        </sql>
+    </uninstall>
+
+    <update>
+        <schemas>
+            <schemapath type="mysql">sql/updates/mysql</schemapath>
+        </schemas>
+    </update>
+</extension>

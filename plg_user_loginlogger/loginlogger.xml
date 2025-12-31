@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="user" method="install" version="4.0">
+    <name>plg_user_logger</name>
+    <version>1.0.0</version>
+    <description>User Login Logout Logger</description>
+
+    <files>
+        <filename plugin="loginlogger">loginlogger.php</filename>
+        <folder>sql</folder>
+    </files>
+
+    <sql>
+        <file driver="mysql" charset="utf8">
+            sql/install.mysql.utf8.sql
+        </file>
+    </sql>
+</extension>

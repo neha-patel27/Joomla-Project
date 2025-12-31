@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="content" method="upgrade">
+    <name>PLG_CONTENT_SAVELOGGER</name>
+    <author>Neha Patel</author>
+    <version>1.0.0</version>
+    <description>Plugin to log Before and After Save</description>
+    <files>
+        <filename plugin="saveLogger">saveLogger.php</filename>
+    </files>
+    <events>
+        <event name="onContentBeforeSave" />
+        <event name="onContentAfterSave" />
+    </events>
+</extension>

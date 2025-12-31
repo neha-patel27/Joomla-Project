@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+<name>City Temperature (No API Key)</name>
+<author>Your Name</author>
+<version>1.0.0</version>
+<description>Shows temperature of a city using wttr.in API</description>
+
+
+<files>
+<filename module="mod_citytemp">mod_citytemp.php</filename>
+<filename>helper.php</filename>
+<filename>curl.php</filename>
+<folder>tmpl</folder>
+</files>
+
+
+<config>
+<fields name="params">
+<fieldset name="basic">
+<field name="city" type="text" label="City Name" default="Delhi" />
+</fieldset>
+</fields>
+</config>
+</extension>

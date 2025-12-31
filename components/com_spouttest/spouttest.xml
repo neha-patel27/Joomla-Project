@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" method="upgrade" version="4.0">
+    <name>com_spouttest</name>
+    <files>
+        <filename>spouttest.php</filename>
+        <folder>src</folder>
+        <folder>spout</folder>
+    </files>
+</extension>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="4.0" client="site" method="upgrade">
+    <name>mod_crudsampleedit</name>
+    <author>Your Name</author>
+    <version>1.0.0</version>
+    <description>Module to edit a CRUD item</description>
+    <files>
+        <filename module="mod_crudsampleedit">mod_crudsampleedit.php</filename>
+        <filename>helper.php</filename>
+        <folder>tmpl</folder>
+    </files>
+</extension>

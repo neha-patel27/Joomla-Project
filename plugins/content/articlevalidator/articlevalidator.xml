@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="content" method="upgrade">
+    <name>PLG_CONTENT_ARTICLEVALIDATOR</name>
+    <author>Neha Patel</author>
+    <version>1.0.1</version>
+    <description>Article Validation Plugin</description>
+
+    <files>
+        <filename plugin="articlevalidator">articlevalidator.php</filename>
+    </files>
+    <scriptfile>script.php</scriptfile>
+</extension>
